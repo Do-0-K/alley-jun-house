@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Final.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Final_Re.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\2023bmp\stage\stage1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Cooking_Area\fire1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Cooking_Area\fire2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Cooking_Area\fire3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Cooking_Area\fire4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Cooking_Area\plat.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\dish.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\ladle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\pot.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\stage\title.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\buckwheat_pancake1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\buckwheat_pancake2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\buckwheat_pancake3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\kimchi_pancake1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\kimchi_pancake2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\kimchi_pancake3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\Pajeon1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\Pajeon2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\Pajeon3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\potato_pancake1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\potato_pancake2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\potato_pancake3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_board.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score_text9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\heart\broken_heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\heart\heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\heart\heart_board.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_angry.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_box.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_cloudy.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_eat1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_eat2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score+50.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score+80.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\score+100.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\object\hit_pot.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_hit1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_hit2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\Score_Board\-heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\stage\bad_end.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\villain_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\villain_hit1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\villain_hit2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\villain_happy1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\villain_happy2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\light.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\camera.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master_finish1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master_finish2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master_finish3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master_finish4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\master_finish5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_upset1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\order\order_upset2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\stage\bad_end2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\stage\stage2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\2023bmp\stage\stage3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\stage\ending.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\stage\stage1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Cooking_Area\fire1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Cooking_Area\fire2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Cooking_Area\fire3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Cooking_Area\fire4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Cooking_Area\plat.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\dish.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\ladle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\pot.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\stage\title.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\buckwheat_pancake1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\buckwheat_pancake2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\buckwheat_pancake3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\kimchi_pancake1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\kimchi_pancake2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\kimchi_pancake3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\Pajeon1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\Pajeon2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\Pajeon3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\potato_pancake1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\potato_pancake2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\potato_pancake3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_board.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score_text9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\heart\broken_heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\heart\heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\heart\heart_board.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_angry.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_box.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_cloudy.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_eat1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_eat2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score+50.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score+80.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\score+100.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\object\hit_pot.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_hit1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_hit2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\Score_Board\-heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\stage\bad_end.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\villain_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\villain_hit1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\villain_hit2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\villain_happy1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\villain_happy2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\light.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\camera.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master_finish1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master_finish2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master_finish3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master_finish4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\master_finish5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_upset1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\order\order_upset2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\stage\bad_end2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\stage\stage2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2023bmp\stage\stage3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
